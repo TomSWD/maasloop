@@ -51,25 +51,25 @@ export default {
 .hero__img {
   margin-top: 60px;
 }
-@media (min-width: 365px) {
-  .bag-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: $orange;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-  }
-  .bag-icon:hover {
-    transition: 0.8s;
-    background-color: #212121;
-    color: $orange;
-  }
+// @media (min-width: 365px) {
+.bag-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: $orange;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
+.bag-icon:hover {
+  transition: 0.8s;
+  background-color: #212121;
+  color: $orange;
+}
+// }
 @media (min-width: 630px) {
   .hero__title {
     font-size: 55px;
