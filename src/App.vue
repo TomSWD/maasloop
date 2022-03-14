@@ -1,28 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <NavSection />
+    <HeroSection />
+    <InfoSection />
+    <CalcSection />
+    <CtaSection />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import "@/assets/styles/reset.css";
+import "@/assets/styles/global.css";
+
+import NavSection from "./components/NavSection.vue";
+import HeroSection from "./components/HeroSection.vue";
+import InfoSection from "./components/InfoSection.vue";
+import CalcSection from "./components/CalcSection.vue";
+import CtaSection from "./components/CtaSection.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    NavSection,
+    HeroSection,
+    InfoSection,
+    CalcSection,
+    CtaSection,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
 </style>

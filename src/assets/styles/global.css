@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #212121;
+    font-weight: 400;
+    line-height: 32px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  path {
+    fill: currentColor;
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  h3{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+  }
+  h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width:480px){
+  h3{
+    font-size: 40px;
+    line-height: 49px;
+  }
+  
+  h5{
+    font-size: 20px;
+    line-height: 32px;
+    }
+  }
+  
